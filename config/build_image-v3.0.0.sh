@@ -18,8 +18,8 @@ pushd $tmpd
 ###############
 # golangci-lint
 ###############
-GOCILINT_VERSION="1.50.0"
-GOCILINT_SHA256SUM="b4b329efcd913082c87d0e9606711ecb57415b5e6ddf233fde9e76c69d9b4e8b"
+GOCILINT_VERSION="1.55.1"
+GOCILINT_SHA256SUM="cef6f21add7326e159822b779d366bed15eb741e686b0429c3e5e04fe77998ef"
 GOCILINT_LOCATION=https://github.com/golangci/golangci-lint/releases/download/v${GOCILINT_VERSION}/golangci-lint-${GOCILINT_VERSION}-linux-amd64.tar.gz
 
 curl -L -o golangci-lint.tar.gz $GOCILINT_LOCATION
